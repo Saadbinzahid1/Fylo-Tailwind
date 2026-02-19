@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: "Josefin Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+}
+
+/* Dark mode variant */
+@variant dark (&:where(.dark, .dark *));
+
+/* Button cursor fix */
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
