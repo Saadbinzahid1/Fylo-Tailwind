@@ -8,9 +8,7 @@ This project focuses on clean UI design, responsive layouts, and implementing da
 
 ## 🌐 Live Preview
 
-(Link will be here after deployment)
-
-<!-- [Live Demo](https://loopstudiostailwindui.netlify.app) -->
+[Live Demo](https://fylotailwindui.netlify.app)
 
 ---
 
